@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="heading">Tic Tac Toe</div>
+        <div class="div1">
+            <div class="row">
+                <div id="0" class="cell" onclick="handleEvent(this)"></div>
+                <div id="1" class="cell" onclick="handleEvent(this)"></div>
+                <div id="2" class="cell" onclick="handleEvent(this)"></div>
+            </div>
+            <div class="row">
+                <div id="3" class="cell" onclick="handleEvent(this)"></div>
+                <div id="4" class="cell" onclick="handleEvent(this)"></div>
+                <div id="5" class="cell" onclick="handleEvent(this)"></div>
+            </div>
+            <div class="row">
+                <div id="6" class="cell" onclick="handleEvent(this)"></div>
+                <div id="7" class="cell" onclick="handleEvent(this)"></div>
+                <div id="8" class="cell" onclick="handleEvent(this)"></div>
+            </div>
+        </div>
+        <div class="scoreCard">
+            <div class="scorebtn">
+                <span id="show">X's Turn</span>
+                <button id="restart">Restart</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

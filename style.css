@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0e033e;
+}
+.card {
+    width: 30%;
+    height: 70%;
+    background: linear-gradient( #00a3ca , #04055d);
+    position: absolute;
+    top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.heading {
+    font-size: 30px;
+    color: white;
+    background-color: #004a9b;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px white;
+    border: 2px solid white;
+
+}
+
+.div1 {
+    background-color: #04055d;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 0 0 30px 20px #004a9b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row {
+    height: 32%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cell {
+    font-size: 50px;
+    color: white;
+    height: 100%;
+    width: 32%;
+    background-color: #00a3ca;
+    text-align: center;
+}
+
+.scoreCard {
+    width: 90%;
+    height: 50px;
+    background-color: #0076af;
+    text-align: center;
+    box-shadow: 0 0 10px 5px #00a3ca;
+    
+}
+
+.scorebtn {
+    color: white;
+    font-size: 30px;
+    border: 1.5px solid white;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: #00a3ca;
+    box-shadow: 0 0 10px 5px #0e033e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#restart {
+    width: 30%;
+    font-size: 15px;
+    background-color: #004a9b;
+    box-shadow: 0 0 10px 5px #04055d;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+}
+
+#restart:hover {
+    background-color: #0076af;
+    box-shadow: 0 0 10px 10px #04055d;
+}
+
+
+@media (max-width: 500px) {
+    .card {
+        width: 80%;
+        height: 40%;
+    }
+
+    .heading {
+        width: 80%;
+    }
+}
